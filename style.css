@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  background-color: rgb(39, 37, 37);
+}
+
+/* FIRST SECTION */
+
+#main-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.main-info {
+  display: flex;
+  align-items: center;
+  width: 48%;
+  margin-left: 20px;
+}
+
+
+
+/*box one */
+
+.box-one {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 200px;
+  height: 170px;
+  margin: 10px 0 10px 0px;
+  border: 6px solid rgb(51, 48, 48);
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  padding: 10px;
+  color: white;
+}
+
+h2 {
+  font-size: 18px;
+  color: lightblue;
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+/* box two */
+
+.box-two {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    margin-left: 20px;
+
+}
+
+.general-p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px 0 5px 15px;
+  
+
+}
+
+.general-info {
+  color: lightblue;
+  font-weight: normal;
+  font-size: 17px;
+  margin-left: 5px;
+}
+
+/* box-three */
+
+.box-three {
+  color: white;
+}
+
+.words {
+    margin-left: 20px;
+}
+
+
+/* SECOND SECTION */
+
+.main-container-two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding: 15px;
+}
+
+.work-education {
+    width: 60%;
+    padding: 20px;
+}
+
+.hard-skills{
+    width: 30%;
+    padding: 20px;
+}
+
+.main-title {
+    color: white;
+    background-color: rgb(99, 96, 96);
+    width: 98%;
+}
+
+.job-date {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+h4{
+    font-size: 20px;
+    color:rgb(99, 96, 96);
+    margin-right: 20px;
+}
+
+.company-name, .school-name {
+    color: white;
+    font-size: 20px;
+}
+
+.occupation, .school-field {
+    margin-top: 0;
+    margin-left: 28px;
+    color: lightblue;  
+}
+
+.occupation-text, .field-text {
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+
+/* THIRD SECTION */
+
+/* container one */
+.course-title {
+    color: white;
+}
+
+.skills {
+    color:rgb(99, 96, 96);
+    font-size: 18px;
+}
+
+.container { 
+    background-color: rgb(82, 78, 78); 
+    width: 80%; 
+} 
+
+.skill { 
+    color: white; 
+    padding: 2px; 
+    text-align: right; 
+    font-size: 20px;  
+} 
+
+.html { 
+    width: 90%;
+    background-color: rgb(72, 114, 168);
+}
+
+.css { 
+    width: 80%;
+    background-color: red;
+}
+
+.java { 
+    width: 70%;
+    background-color: rgb(228, 228, 126)
+}
+
+.react { 
+    width: 60%;
+    background-color: rgb(31, 168, 38);
+}
+
+.git { 
+    width: 80%;
+    background-color: rgb(212, 175, 11);
+}
+
+/* container two */
+
+.container-two {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 0;
+    height: 35px;
+}
+
+.red, .yellow, .blue, .green, .orange { 
+    width: 10px;
+    height: 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+
+/* container-three */
+
+.container-three {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.language {
+  margin-right: 15px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+  }
+
+.red-dot {
+    background-color: red;
+}
+
+.yellow-dot {
+    background-color: yellow;
+}
+
+
+
+
+
